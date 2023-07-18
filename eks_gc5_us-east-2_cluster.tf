@@ -11,7 +11,7 @@ module "eks_gc5_us-east-2" {
       base_domain                = var.base_domain
       cluster_availability_zones = "us-east-2a,us-east-2b,us-east-2c"
       cluster_desired_capacity   = 1
-      cluster_instance_type      = "t2.micro"
+      cluster_instance_type      = "t2.medium"
       cluster_max_size           = 1
       cluster_min_size           = 1
       name_prefix                = "gc5"
